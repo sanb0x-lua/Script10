@@ -224,3 +224,22 @@ footer {
     font-size:13px;
     text-align:center;
 }
+
+.lang-btn {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+.lang-btn:hover {
+    border-color: #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
